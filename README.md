@@ -2,9 +2,10 @@
 
 This Flutter News App was integration with API newsapi.org
 
-## Demo
-
+## Demo ScreenShot
 
 ![App UI](/demo/screen-shot-demo.png)
+
+## Demo with .gif
 ![App UI](/demo/demo.gif)
 
