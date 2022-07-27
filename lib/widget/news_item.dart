@@ -44,7 +44,7 @@ class NewsItem extends StatelessWidget {
               '${news.title}',
               maxLines: 2,
               softWrap: true,
-              style: textTheme.display1.copyWith(
+              style: textTheme.displayMedium.copyWith(
                 color: Colors.white,
                 fontSize: 18.0,
               ),
@@ -54,7 +54,7 @@ class NewsItem extends StatelessWidget {
                 alignment: Alignment.bottomRight,
                 child: Text(
                   '- ${news.source?.name ?? 'unknown'}',
-                  style: textTheme.body1.copyWith(
+                  style: textTheme.displayMedium.copyWith(
                       color: Colors.white70,
                       fontSize: 14.0,
                       fontStyle: FontStyle.italic),
